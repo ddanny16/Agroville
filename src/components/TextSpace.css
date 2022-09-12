@@ -1,0 +1,69 @@
+.air {
+    background:
+        #F6F8FD;
+}
+
+
+
+label {
+    color: rgb(0, 0, 0);
+    margin-bottom: 1rem;
+    display: block;
+    text-transform: capitalize;
+    font-size: 23px;
+
+}
+
+
+
+channel {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem;
+    margin: auto;
+    max-width: 600px;
+}
+
+
+form input,
+form textarea {
+    margin-bottom: 1rem;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    background-color: #bec8f9c9;
+    border-color: #2642bdbd;
+    color: #f4f4f4;
+    border-radius: 06px;
+    color: black;
+    text-transform: capitalize;
+    width: 100%;
+
+}
+
+chance {
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+    top: 41px;
+    left: 10px;
+}
+
+@media screen and (max-width:1000px) {
+    channel {
+        flex-direction: column;
+    }
+
+    chance {
+        display: none;
+    }
+
+    label {
+        font-size: 19px;
+    }
+}
