@@ -4,8 +4,7 @@
 }
 
 .into-img1 {
-  width: 100%;
-  height: 100%;
+  width: 35rem;
   background-size: cover;
   object-fit: cover;
   background-position: center;
@@ -28,6 +27,7 @@
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
+  background:  #F6F8FD;
 }
 
 hance {
@@ -74,6 +74,14 @@ hance {
     margin-left: 18px;
     top: 30px;
     position: relative;
+  }
+}
+
+@media screen and (max-width:600px) {
+
+  .into-img1{
+    width:100%;
+    height:100%;
   }
 }
 

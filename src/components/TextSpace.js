@@ -27,6 +27,9 @@ const TextSpace = () => {
                         <label htmlFor="msg">Message</label>
                         <textarea name="msg" id="msg" rows="6" placeholder="Write" />
                     </div>
+                    <div className="send_btn">
+                        btn
+                    </div>
                 </div>
             </form>
         </div>

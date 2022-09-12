@@ -21,7 +21,7 @@ const Navbar = () => {
     }
   }
 
-  const isActive="Home"
+  // const isActive="Home"
 
   window.addEventListener("scroll", changeColor);
   return (
@@ -33,7 +33,7 @@ const Navbar = () => {
       <ul className={click ? "nav-menu active" : "nav-menu"}>
 
         <li>
-          <Link to="/" className={`${isActive === "/" }`}>Home</Link>
+          <Link to="/" className="effect1" >Home</Link>
         </li>
         <li  >
           <Link to="/products" className="effect1">Products</Link>
