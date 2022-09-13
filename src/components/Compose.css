@@ -1,0 +1,67 @@
+.mint {
+    text-align: center;
+    color:#f4f4f4;
+}
+
+.subscribe {
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.minted {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #223DBB;
+    padding: 30px;
+    
+    gap: 17px;
+
+}
+input{
+    padding: 10px 25px ;
+    border-radius: 10px 0 0 10px;
+}
+.subscribe span{
+    color: #223DBB;
+    background-color: #f4f4f4;
+    padding: 9px;
+    border-radius:0 10px  10px 0;
+    cursor: pointer;
+}
+@media screen and (max-width:600px) {
+    input{
+        padding: 6px 17px;
+    }
+    .subscribe span{
+        padding: 6px;
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width:300px) {
+    input{
+        padding: 3px 13px;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .subscribe span{
+        padding: 4px;
+        border-radius: 10px 10px 10px 10px;
+    }
+    
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #223DBB; */
+    /* padding: 30px; */
+    
+    gap: 10px;
+
+}
+}

@@ -7,7 +7,7 @@ const TextSpace = () => {
             <chance>
                 Contact Us
             </chance>
-            <form action="" method="post">
+            <form method="post">
                 <div className="general">
                     <channel>
                         <div className="top">
@@ -28,7 +28,7 @@ const TextSpace = () => {
                         <textarea name="msg" id="msg" rows="6" placeholder="Write" />
                     </div>
                     <div className="send_btn">
-                        btn
+                        <button type="submit"> Send</button>
                     </div>
                 </div>
             </form>

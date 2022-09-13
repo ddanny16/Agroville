@@ -46,6 +46,37 @@ form textarea {
 
 }
 
+button {
+    margin-bottom: 1rem;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    background-color: #223DBB;
+    border-color: #bec8f9c9;
+    color: #f4f4f4;
+    border-radius: 6px;
+    /* color: black; */
+    text-transform: capitalize;
+    width: 60%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    cursor:pointer;
+}
+button:hover{
+    background-color: #f4f4f4;
+    color: #223DBB;
+    box-shadow: #223DBB 70%;
+    transition: all 1s ease-in-out;
+}
+/* .textmsg{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
 chance {
     font-size: 30px;
     font-weight: 500;
@@ -65,5 +96,8 @@ chance {
 
     label {
         font-size: 19px;
+    }
+    button{
+        width:100%;
     }
 }
