@@ -12,7 +12,8 @@ const Compose = () => {
                 Get the latest update on new product directly to your email
                 </section>
                 <section className="subscribe">
-                    <input type="text" /><span className="subscribe1">Subscribe</span>
+                    <input type="email" placeholder="enter your email address" />
+                    <button>Subscribe</button>
                 </section>
             </section>
         </div>
