@@ -9,71 +9,77 @@ const AboutUs1 = () => {
   return (
     <div>
       <box>
-        <section>
-          <div className="tinyimg">
-            <img src={Coww} alt="Cow" />
-          </div>
-          <div className="tinytext">
-            <p>
-              Livestock Sales
-            </p>
-          </div>
-          <div className="tinytext2">
-            <p>
-              We are a professional multi-species livestock marketing and frozen food company owned by farmers.
-            </p>
-          </div>
+        <box1>
+          <section>
+            <div className="tinyimg">
+              <img src={Coww} alt="Cow" />
+            </div>
+            <div className="tinytext">
+              <p>
+                Livestock Sales
+              </p>
+            </div>
+            <div className="tinytext2">
+              <p>
+                We are a professional multi-species livestock marketing and frozen food company owned by farmers.
+              </p>
+            </div>
 
-        </section>
-        <section>
-          <div className="tinyimg">
-            <img src={Paw} alt="Cow" />
-          </div>
-          <div className="tinytext">
-            <p>
-          Vertinary
-            </p>
-          </div>
-          <div className="tinytext2">
-            <p>
-              We are a professional multi-species livestock marketing and frozen food company owned by farmers.
-            </p>
-          </div>
+          </section>
+          <section>
+            <div className="tinyimg">
+              <img src={Paw} alt="Cow" />
+            </div>
+            <div className="tinytext">
+              <p>
+                Vertinary
+              </p>
+            </div>
+            <div className="tinytext2">
+              <p>
+                We are a professional multi-species livestock marketing and frozen food company owned by farmers.
+              </p>
+            </div>
 
-        </section>
+          </section>
 
-        <section>
-          <div className="tinyimg">
-            <img src={Baloon} alt="Cow" />
-          </div>
-          <div className="tinytext">
-            <p>
-              Frozen food sales
-            </p>
-          </div>
-          <div className="tinytext2">
-            <p>
-              We are a professional multi-species livestock marketing and frozen food company owned by farmers.
-            </p>
-          </div>
 
-        </section>
-        <section>
-          <div className="tinyimg">
-            <img src={Chart} alt="Cow" />
-          </div>
-          <div className="tinytext">
-            <p>
-              Investments
-            </p>
-          </div>
-          <div className="tinytext2">
-            <p>
-              We are a professional multi-species livestock marketing and frozen food company owned by farmers.
-            </p>
-          </div>
+        </box1>
 
-        </section>
+        <box2>
+          <section>
+            <div className="tinyimg">
+              <img src={Baloon} alt="Cow" />
+            </div>
+            <div className="tinytext">
+              <p>
+                Frozen food sales
+              </p>
+            </div>
+            <div className="tinytext2">
+              <p>
+                We are a professional multi-species livestock marketing and frozen food company owned by farmers.
+              </p>
+            </div>
+
+          </section>
+          <section>
+            <div className="tinyimg">
+              <img src={Chart} alt="Cow" />
+            </div>
+            <div className="tinytext">
+              <p>
+                Investments
+              </p>
+            </div>
+            <div className="tinytext2">
+              <p>
+                We are a professional multi-species livestock marketing and frozen food company owned by farmers.
+              </p>
+            </div>
+
+          </section>
+        </box2>
       </box>
     </div>
   )
