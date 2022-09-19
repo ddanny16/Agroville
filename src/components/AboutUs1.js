@@ -26,6 +26,9 @@ const AboutUs1 = () => {
             </div>
 
           </section>
+        </box1>
+
+        <box1>
           <section>
             <div className="tinyimg">
               <img src={Paw} alt="Cow" />
@@ -42,11 +45,9 @@ const AboutUs1 = () => {
             </div>
 
           </section>
-
-
         </box1>
 
-        <box2>
+        <box1>
           <section>
             <div className="tinyimg">
               <img src={Baloon} alt="Cow" />
@@ -63,9 +64,12 @@ const AboutUs1 = () => {
             </div>
 
           </section>
+        </box1>
+
+        <box1>
           <section>
             <div className="tinyimg">
-              <img src={Chart} alt="Cow" />
+              <img src={Chart} alt="Cow" className="charte" />
             </div>
             <div className="tinytext">
               <p>
@@ -79,7 +83,9 @@ const AboutUs1 = () => {
             </div>
 
           </section>
-        </box2>
+        </box1>
+
+
       </box>
     </div>
   )

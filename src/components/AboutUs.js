@@ -7,17 +7,20 @@ import AboutUs1 from './AboutUs1'
 const AboutUs = () => {
   return (
     <div className="heropig">
-    
+
       <div className="heropiggy">
-      <about>
-        <p>
-          About us
-        </p>
-      </about>
-       <heropigh>
-       <About1 />
-        <AboutUs1 />
-       </heropigh>
+    <only>
+    <about>
+          <p>
+            About us
+          </p>
+        </about>
+        <heropigh>
+          <About1 />
+          <AboutUs1 />
+        </heropigh>
+
+    </only>
       </div>
     </div>
   )
