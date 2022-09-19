@@ -7,7 +7,7 @@ import Chart from "../assets/arrow 24.png"
 
 const AboutUs1 = () => {
   return (
-    <div>
+    <div className="monk">
       <box>
         <box1>
           <section>

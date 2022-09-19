@@ -16,3 +16,15 @@ bunny{
     flex-direction:column;
     gap:10px;
 }
+@media screen and (max-width:800px){
+    br{
+        display:none;
+    }
+    span p {
+        color: white;
+        
+        line-height: none;
+        font-size:15px;
+    
+    }
+}
