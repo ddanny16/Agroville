@@ -77,9 +77,13 @@ box {
         grid-template-columns: repeat(auto-fit, minmax(12rem, 4fr));
         position:relative;
         left:0;
+        gap:10px;
     }
     .tinytext2{
         font-size:10px;
+    }
+    box1{
+        width:100%;
     }
 }
 @media screen and (max-width:400px) {

@@ -16,6 +16,12 @@ bunny{
     flex-direction:column;
     gap:10px;
 }
+@media screen and (max-width:1200px) {
+    bunny {
+        margin:0 auto;
+        width:85%;
+    }
+}
 @media screen and (max-width:800px){
     br{
         display:none;

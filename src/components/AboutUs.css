@@ -5,6 +5,9 @@
     background: url(../assets/pigs1.png);
     width: 100%;
     height: 100vh;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
 
 }
 
@@ -13,6 +16,10 @@
     height: 100vh;
     width: 100%;
     /* align-items: center; */
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    
 }
 
 heropigh {
@@ -65,7 +72,7 @@ about p {
         grid-template-columns: auto ;
         width: 100%;
         margin: 0 auto;
-        background:  #223ebbe3;
+        /* background:  #223ebbe3; */
     }
 
 }
