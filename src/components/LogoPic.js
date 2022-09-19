@@ -18,12 +18,12 @@ const LogoPic = () => {
                 </logotext>
             
             <logos>
-                <img src={Logo1} alt="" />
-                <img src={Logo2} alt="" />
-                <img src={Logo3} alt="" />
                 <img src={Logo4} alt="" />
                 <img src={Logo5} alt="" />
+                <img src={Logo2} alt="" />
                 <img src={Logo6} alt="" />
+                <img src={Logo3} alt="" />
+                <img src={Logo1} alt="" />
             </logos>
         </div>
     )

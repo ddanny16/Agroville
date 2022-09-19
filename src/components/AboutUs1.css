@@ -1,0 +1,24 @@
+section{
+    background: #ffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* width: 100%; */
+    justify-content: center;
+}
+section .tinytext{
+    font-weight:500;
+}
+box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 4fr));
+}
+
+@media screen and (max-width:1000px){
+    box {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 2fr));
+    }
+}
+

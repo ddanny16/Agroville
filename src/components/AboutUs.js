@@ -1,9 +1,16 @@
 import React from 'react'
+import About1 from './About1'
+import "./AboutUs.css"
+import AboutUs1 from './AboutUs1'
+// import Piggies from "../assets/pigs1.png"
 
 const AboutUs = () => {
   return (
-    <div>
-      
+    <div className="heropig">
+      <div className="heropiggy">
+        <About1 />
+        <AboutUs1 />
+      </div>
     </div>
   )
 }

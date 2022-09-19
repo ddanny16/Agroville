@@ -1,0 +1,15 @@
+span p {
+    color: white;
+}
+
+span c {
+    color: rgba(34, 61, 187, 1);
+    background: #FFFFFF;
+    padding:10px 15px;
+
+}
+bunny{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}

@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar'
 import Background from "../assets/cows.svg"
 import { FaSearch } from "react-icons/fa"
 import LogoPic from '../components/LogoPic'
+import AboutUs from '../components/AboutUs'
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
                 marginRight: "0rem",
             }} />} />
             <LogoPic />
+            <AboutUs/>
 
         </div>
     )
