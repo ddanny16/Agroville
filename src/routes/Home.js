@@ -5,6 +5,7 @@ import Background from "../assets/cows.svg"
 import { FaSearch } from "react-icons/fa"
 import LogoPic from '../components/LogoPic'
 import AboutUs from '../components/AboutUs'
+import Products1 from '../components/Products1'
 
 const Home = () => {
     return (
@@ -15,7 +16,8 @@ const Home = () => {
                 marginRight: "0rem",
             }} />} />
             <LogoPic />
-            <AboutUs/>
+            <AboutUs />
+            <Products1 />
 
         </div>
     )
