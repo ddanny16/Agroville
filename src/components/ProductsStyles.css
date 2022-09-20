@@ -1,7 +1,16 @@
-mint {
-    display:flex;
-    justify-content:space-between;
+mint{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+}
 
-    background:
-    #000003;
+food{
+    text-align:center;
+    padding:40px;
+}
+jinx{
+    background-color: aliceblue;
+
 }

@@ -3,7 +3,7 @@ import "./Prleft.css"
 
 const PrLeft = () => {
     return (
-        <div>
+        <fr>
            
           <whole>
             <d>
@@ -18,7 +18,7 @@ const PrLeft = () => {
                 <viv>Feeds</viv>
             </d>
           </whole>
-        </div>
+        </fr>
     )
 }
 

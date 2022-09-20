@@ -5,11 +5,19 @@ import PrRight from "./PrRight.js"
 
 const Products1 = () => {
     return (
-        <mint>
-           
-          <PrLeft />
-          <PrRight />
-        </mint>
+        <jinx>
+            <food>
+                <p>
+                Products
+                </p>
+            </food>
+            <mint>
+
+                <PrLeft />
+                <PrRight />
+            </mint>
+        </jinx>
+
     )
 }
 
